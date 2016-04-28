@@ -1,4 +1,5 @@
 #!/usr/bin/python
+__author__ = 'Mayank'
 
 # Everything is an Object, even numbers. There are no primitives
 # Every object has a type. The object has attributes, some of which are methods
