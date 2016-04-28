@@ -9,10 +9,9 @@ mybol = True
 mynone = None
 mylist = ['a', 'b', 'c']
 
-def func():
+def myfunc():
     print 'hello'
 
-myfunc = func()
 this_type = type(myint)
 
 print type(myint)
@@ -23,5 +22,5 @@ print type(mylist)
 print type(myfunc)
 print type(this_type)
 
-# attributes associated with an integer
+# Attributes associated with an integer
 print dir(myint)
