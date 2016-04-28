@@ -8,7 +8,7 @@ class Joe(object):
     greeting = 'Hello, Joe!'
 
     # when instance method is called through an instance, the instance is automatically passed as 1st argument
-    def callme(self):
+    def callme(self):  # self is the instance on which the method is called.
         print 'Invoked method callme()'
         print self
 
