@@ -10,8 +10,10 @@ mybol = True
 mynone = None
 mylist = ['a', 'b', 'c']
 
+
 def myfunc():
     print 'hello'
+
 
 this_type = type(myint)
 

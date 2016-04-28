@@ -7,12 +7,12 @@ from modeC import temp, dothen
 from decimal import Decimal
 
 print mode.var
-print mode.dothis()
+mode.dothis()
 
 print mm.var
-print mm.dothat()
+mm.dothat()
 
 print temp
-print dothen()
+dothen()
 
 print Decimal(3.5) + Decimal(6.5)
