@@ -1,0 +1,19 @@
+#!/usr/bin/python
+__author__ = 'Mayank'
+
+import sys
+
+mydict = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+key = raw_input('please insert a key :  ')
+
+try:
+    print('testing for error')
+    print('the value for {0} is {1}'.format(key, mydict[key]))
+    print('executed successfully')
+
+except KeyError:
+    print('trapped error')
+    print('the key "' + key + '" does not exist')
+    sys.exit()
+
+print('the program continues...')
