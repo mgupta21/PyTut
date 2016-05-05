@@ -16,7 +16,9 @@ print type(json_obj)
 json_obj['new_key'] = 'new_val'
 
 with open(filename, 'w') as f:
-    json.dump(json_obj, f)
+    # json.dump(json_obj, f)
+    # writing back in human readable form
+    json.dump(json_obj, f, indent=4, separators=(',', ': '))
 
 print '\n'
 
