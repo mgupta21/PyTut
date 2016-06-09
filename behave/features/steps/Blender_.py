@@ -17,10 +17,10 @@ class Blender(object):
 
     @classmethod
     def select_result_for(cls, thing):
-        return cls.TRANSFORMATION_MAP(thing)
+        return cls.TRANSFORMATION_MAP.get(thing)
 
     def insert(self, thing):
         self.thing = thing
 
     def switch_on(self):
-        self.result = self.select_result_for(self.thing)
+        self.other_thing = self.select_result_for(self.thing)
