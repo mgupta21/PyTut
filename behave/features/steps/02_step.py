@@ -13,7 +13,7 @@ def step_the_ninja_has_a(context, achievement_level):
 
 @when('attacked by a {opponent_role}')
 def step_attacked_by_a(context, opponent_role):
-    context.ninja_fight.opponent = opponent_role # set obj.opponent
+    context.ninja_fight.opponent = opponent_role # set obj.opponent; context is used to access var and methods accross steps
 
 @when('attacked by {opponent}')
 def step_attacked_by(context, opponent):

@@ -3,7 +3,7 @@ class NinjaFight(object):
     Domain model for ninja fights.
     """
 
-    def __init__(self, with_ninja_level=None):
+    def __init__(self, with_ninja_level=None): # constructor takes one argument, if not provided set to none
         self.with_ninja_level = with_ninja_level
         self.opponent = None
 

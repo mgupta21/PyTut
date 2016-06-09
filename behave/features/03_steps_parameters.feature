@@ -1,5 +1,8 @@
 Feature: Steps Parameters
 
+  """A Scenario Outline provides a parametrized scenario script (or template) for the feature file writer.
+   The Scenario Outline is executed for each example row in the Examples section below the Scenario Outline."""
+
   Scenario Outline: Use Blender with <this>
     Given I put "<this>" in a blender
     When I switch the blender on
